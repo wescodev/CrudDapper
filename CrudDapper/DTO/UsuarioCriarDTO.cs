@@ -1,8 +1,7 @@
-﻿namespace CrudDapper.models
+﻿namespace CrudDapper.DTO
 {
-    public class Usuario
+    public class UsuarioCriarDTO
     {
-        public int Id { get; set; }
         public string NomeCompleto { get; set; }
         public string Email { get; set; }
         public string Cargo { get; set; }
@@ -12,4 +11,3 @@
         public string Senha { get; set; }
     }
 }
- 
